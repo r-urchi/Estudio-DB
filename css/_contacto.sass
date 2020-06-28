@@ -2,7 +2,11 @@
     margin-bottom: 40px
 
 .main__subtitulo.contacto
+    display: -webkit-box
+    display: -ms-flexbox
     display: flex
+    -webkit-box-pack: start
+    -ms-flex-pack: start
     justify-content: flex-start
     color: #000
     margin-left: 12%
@@ -11,20 +15,35 @@
 .formualario-imagenes
     width: 100%
     height: 100%
+    display: -webkit-box
+    display: -ms-flexbox
     display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
     justify-content: center
+    -webkit-box-align: center
+    -ms-flex-align: center
     align-items: center
 
 // -----------------formulario
 .formulario__contenedor
     width: 100%
+    display: -webkit-box
+    display: -ms-flexbox
     display: flex
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
     flex-direction: column
     margin: auto
 
 .formulario__nombre-mail
     width: 100%
+    display: -webkit-box
+    display: -ms-flexbox
     display: flex
+    -webkit-box-pack: justify
+    -ms-flex-pack: justify
     justify-content: space-between
     
     
@@ -97,9 +116,18 @@
 // -----------------imagenes ciudad 
 .imagenes-contacto
     width: 40%
+    display: -webkit-box
+    display: -ms-flexbox
     display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
     justify-content: center
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
     flex-direction: column
+    -webkit-box-align: end
+    -ms-flex-align: end
     align-items: flex-end
 
 .imagen-contenedor
@@ -107,18 +135,18 @@
     box-shadow: 0px 6px 20px -10px rgba(0,0,0,0.9)
 
 .imagen-contenedor, .imagen-contenedor__img 
-  display: block
-  position: relative	
-  width: 420px
+    display: block
+    position: relative	
+    width: 420px
 
 .imagen-contenedor__texto
-  background-color: rgba(0, 0, 0, .5)
-  display: block
-  position: absolute
-  bottom: 0px
-  left: 0
-  padding: 5px
-  width: 100%
-  color: #fff
-  font-size: 15px
-  text-align: center
+    background-color: rgba(0, 0, 0, .5)
+    display: block
+    position: absolute
+    bottom: 0px
+    left: 0
+    padding: 5px
+    width: 100%
+    color: #fff
+    font-size: 15px
+    text-align: center

@@ -525,6 +525,7 @@ p {
 }
 
 .slider.fade img {
+  display: block;
   margin: auto;
 }
 

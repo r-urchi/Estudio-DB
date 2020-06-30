@@ -524,7 +524,7 @@ p {
   height: 100%;
 }
 
-.slider.fade img {
+.slider.fade .alta {
   display: block;
   margin: auto;
 }

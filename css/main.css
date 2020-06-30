@@ -1,10 +1,5 @@
 .header {
-  height: 100vh;
-  background-image: url(../img/logo-alta1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
+  height: 65vh;
 }
 
 .header__contenedor-frase {
@@ -24,17 +19,32 @@
   -ms-flex-direction: column;
   flex-direction: column;
   color: #000;
-  text-align: center;
+}
+
+.contenedor-logoPortada {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.contenedor-logoPortada img {
+  padding-top: 5px;
+  width: 290px;
 }
 
 .header__frase {
-  margin-top: 200px;
+  position: absolute;
+  top: 35vh;
+  text-align: center;
   font-size: 20px;
-  margin-bottom: 10px;
 }
 
 .header__frase-autor {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .logoYcontacto {
@@ -259,9 +269,12 @@ p {
 }
 
 .main__descripcion-presentacion {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 15px;
   margin: 0 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
 }
 
 .main__botones {
@@ -1140,13 +1153,17 @@ footer {
     float: right;
   }
 
+  .header {
+    height: 50vh;
+  }
+
   .header__frase {
-    margin-top: 200px;
+    top: 36vh;
   }
 
   .main__descripcion-presentacion {
-    font-size: 15px;
-    margin: 0 50px;
+    font-size: 16px;
+    margin: 0 20px;
   }
 
   .main__boton {
@@ -1382,18 +1399,23 @@ footer {
     font-size: 10px;
   }
 
+  .contenedor-logoPortada img {
+    padding-top: 15px;
+    z-index: -1;
+  }
+
   .header__frase {
-    margin-top: 150px;
+    margin: 0 10px 0 0;
     font-size: 14px;
   }
 
   .header__frase-autor {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .main__descripcion-presentacion {
     margin: 0 30px;
-    font-size: 14px;
+    font-size: 15px;
     padding-bottom: 10px;
   }
 
